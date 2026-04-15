@@ -6,10 +6,10 @@
     "email": "nabil.ahmed@example.com",
     "days_since_contact": 15,
     "status": "Overdue",
-    "tags": ["HOBBY", "DESIGNER"],
+    "tags": ["WORK", "STATS"],
     "bio": "Met in university. Loves discussing data science and statistics.",
     "goal": 7,
-    "next_due_date": "2025-07-20"
+    "next_due_date": "Nov 2,2026"
   },
   {
     "id": 2,
@@ -18,10 +18,10 @@
     "email": "sarah.k@example.com",
     "days_since_contact": 2,
     "status": "On-Track",
-    "tags": ["FAMILY"],
+    "tags": ["REACT", "TAILWIND"],
     "bio": "Expert in React and Tailwind. We often share coding resources.",
     "goal": 14,
-    "next_due_date": "2025-08-01"
+    "next_due_date": "Aug 24,2026"
   },
   {
     "id": 3,
@@ -30,10 +30,10 @@
     "email": "tanvir.h@example.com",
     "days_since_contact": 10,
     "status": "Almost Due",
-    "tags": ["WORK"],
+    "tags": ["FRIEND","PERSONAL"],
     "bio": "School friend from Rangpur. A very kind-hearted person.",
     "goal": 7,
-    "next_due_date": "2025-07-15"
+    "next_due_date": "Jan 15,2026"
   },
   {
     "id": 4,
@@ -42,10 +42,10 @@
     "email": "anika.t@example.com",
     "days_since_contact": 30,
     "status": "Overdue",
-    "tags": ["HOBBY", "TRAVEL"],
+    "tags": ["WORK", "STATS"],
     "bio": "Collaborated on many statistics projects at BRUR.",
     "goal": 15,
-    "next_due_date": "2025-06-30"
+    "next_due_date": "Apr 20,2026"
   },
   {
     "id": 5,
@@ -54,10 +54,10 @@
     "email": "rakib.h@example.com",
     "days_since_contact": 5,
     "status": "On-Track",
-    "tags": ["WORK"],
+    "tags": ["FITNESS","HEALTH"],
     "bio": "Motivational buddy. We talk about health and workouts.",
     "goal": 10,
-    "next_due_date": "2025-07-25"
+    "next_due_date": "Mar 27,2026"
   },
   {
     "id": 6,
@@ -66,10 +66,10 @@
     "email": "fariha.i@example.com",
     "days_since_contact": 12,
     "status": "Almost Due",
-    "tags": ["WORK", "STATS"],
+    "tags": ["NEXT.JS", "API"],
     "bio": "Helped me understand Next.js and asynchronous data fetching.",
     "goal": 14,
-    "next_due_date": "2025-07-18"
+    "next_due_date": "Feb 27,2026"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "tags": ["WORK"],
     "bio": "Known each other for 10 years. Always there in need.",
     "goal": 5,
-    "next_due_date": "2025-07-22"
+    "next_due_date": "Mar 10,2026"
   },
   {
     "id": 8,
@@ -90,10 +90,10 @@
     "email": "mousumi.a@example.com",
     "days_since_contact": 45,
     "status": "On-Track",
-    "tags": ["HOBBY","TRAVEL"],
+    "tags": ["HOBBY", "DESIGNER"],
     "bio": "Very talented UI/UX designer. Met during a freelance project.",
     "goal": 30,
-    "next_due_date": "2025-06-15"
+    "next_due_date": "Nov 29,2026"
   },
   {
     "id": 9,
@@ -102,10 +102,10 @@
     "email": "zubayer.a@example.com",
     "days_since_contact": 8,
     "status": "Almost Due",
-    "tags": ["HOBBY", "DESIGNER"],
+    "tags": ["HOBBY", "TRAVEL"],
     "bio": "Travel enthusiast. We explored Sylhet together last year.",
     "goal": 14,
-    "next_due_date": "2025-07-28"
+    "next_due_date": "Feb 27,2025"
   },
   {
     "id": 10,
@@ -117,6 +117,6 @@
     "tags": ["FAMILY"],
     "bio": "Childhood neighbor. Our families are very close.",
     "goal": 21,
-    "next_due_date": "2025-07-10"
+    "next_due_date": "Feb 12,2026"
   }
 ]

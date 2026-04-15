@@ -1,6 +1,8 @@
 import React from 'react';
 import friendsData from '../../../public/data.json'; 
 import Image from 'next/image';
+import Link from 'next/link';
+
 export default function CardSection() {
   const friends = friendsData; 
 
@@ -12,10 +14,11 @@ export default function CardSection() {
 
       <div className='grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-6'>
         {friends.map(friend => (
+          <Link href={`/CardSection/${friend.id}`} key={friend.id}>
           <div key={friend.id} className="card bg-white border border-gray-100 shadow-md p-3 flex flex-col items-center">
              <Image src={friend.picture} alt={friend.name} width={50} height={50} className=" mt-2 rounded-full object-cover mb-4" />
              <h2 className="font-bold text-xl">{friend.name}</h2>
-             <p className="text-sm text-blue-500">62d ago</p>
+             <p className="text-sm text-gray-500">  {friend.days_since_contact}d ago</p>
 
 
              <div className='flex flex-wrap justify-center gap-2 mt-2'>
@@ -32,6 +35,7 @@ export default function CardSection() {
 
 
              </div>
+             </Link>
         ))}
       </div>
     </div>
