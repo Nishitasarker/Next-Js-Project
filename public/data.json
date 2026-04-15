@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Nabil Ahmed",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&h=300&fit=crop",
+    "email": "nabil.ahmed@example.com",
+    "days_since_contact": 15,
+    "status": "Overdue",
+    "tags": ["HOBBY", "DESIGNER"],
+    "bio": "Met in university. Loves discussing data science and statistics.",
+    "goal": 7,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Karim",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&h=300&fit=crop",
+    "email": "sarah.k@example.com",
+    "days_since_contact": 2,
+    "status": "On-Track",
+    "tags": ["FAMILY"],
+    "bio": "Expert in React and Tailwind. We often share coding resources.",
+    "goal": 14,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hasan",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300&h=300&fit=crop",
+    "email": "tanvir.h@example.com",
+    "days_since_contact": 10,
+    "status": "Almost Due",
+    "tags": ["WORK"],
+    "bio": "School friend from Rangpur. A very kind-hearted person.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 4,
+    "name": "Anika Tabassum",
+    "picture": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=300&h=300&fit=crop",
+    "email": "anika.t@example.com",
+    "days_since_contact": 30,
+    "status": "Overdue",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Collaborated on many statistics projects at BRUR.",
+    "goal": 15,
+    "next_due_date": "2025-06-30"
+  },
+  {
+    "id": 5,
+    "name": "Rakib Hossain",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&h=300&fit=crop",
+    "email": "rakib.h@example.com",
+    "days_since_contact": 5,
+    "status": "On-Track",
+    "tags": ["WORK"],
+    "bio": "Motivational buddy. We talk about health and workouts.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 6,
+    "name": "Fariha Islam",
+    "picture": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&h=300&fit=crop",
+    "email": "fariha.i@example.com",
+    "days_since_contact": 12,
+    "status": "Almost Due",
+    "tags": ["WORK", "STATS"],
+    "bio": "Helped me understand Next.js and asynchronous data fetching.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 7,
+    "name": "Siam Rahman",
+    "picture": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?q=80&w=400&h=400&fit=crop",
+    "email": "siam.r@example.com",
+    "days_since_contact": 1,
+    "status": "Overdue",
+    "tags": ["WORK"],
+    "bio": "Known each other for 10 years. Always there in need.",
+    "goal": 5,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Mousumi Akter",
+    "picture": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&h=300&fit=crop",
+    "email": "mousumi.a@example.com",
+    "days_since_contact": 45,
+    "status": "On-Track",
+    "tags": ["HOBBY","TRAVEL"],
+    "bio": "Very talented UI/UX designer. Met during a freelance project.",
+    "goal": 30,
+    "next_due_date": "2025-06-15"
+  },
+  {
+    "id": 9,
+    "name": "Zubayer Ahmed",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=300&h=300&fit=crop",
+    "email": "zubayer.a@example.com",
+    "days_since_contact": 8,
+    "status": "Almost Due",
+    "tags": ["HOBBY", "DESIGNER"],
+    "bio": "Travel enthusiast. We explored Sylhet together last year.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 10,
+    "name": "Nusrat Jahan",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=300&h=300&fit=crop",
+    "email": "nusrat.j@example.com",
+    "days_since_contact": 20,
+    "status": "Overdue",
+    "tags": ["FAMILY"],
+    "bio": "Childhood neighbor. Our families are very close.",
+    "goal": 21,
+    "next_due_date": "2025-07-10"
+  }
+]

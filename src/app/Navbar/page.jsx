@@ -15,10 +15,10 @@ const Navbar = () => {
 
            
           <div className="navbar  bg-base-100 shadow-sm  sm:flex justify-between ">
-            <Image src={Logo} alt="logo" height={140} width={140} className='w-40 h-auto ml-2 sm:ml-15'/>
+            <Image src={Logo} alt="logo" height={140} width={140} className='w-40 h-auto ml-2 sm:ml-8 md:ml-15'/>
 
         
-         <div className='flex mr-1  sm:mr-15'>
+         <div className='flex mr-1  sm:mr-8  md:mr-25'>
 
 
         <button onClick={() => setActiveTab('home')} className={`flex items-center gap-1 px-1 sm:px-3 py-1 rounded transition-colors ${

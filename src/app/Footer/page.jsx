@@ -21,10 +21,10 @@ const Footer = () => {
             </div>
 
             <div className="h-[1px] w-[60%] bg-gray-500 my-1"></div>
-            <div className='text-gray-400 w-full text-sm flex flex-col px-30  pb-3 sm:flex-row sm:flex justify-between sm:px-65'>
+            <div className='text-gray-400 w-full text-sm grid grid-cols-1 place-items-center md:grid-cols-2 md:px-35 pb-3 '>
                 <p>&copy; 2026 KeenKeeper. All rights reserved.</p>
                <div>
-                 <ul className='flex gap-1'>
+                 <ul className='flex gap-5'>
                     <li>Privacy Policy</li>
                     <li>Terms of Service</li>
                     <li>Cookies</li>

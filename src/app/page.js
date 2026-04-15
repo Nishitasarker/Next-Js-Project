@@ -1,5 +1,6 @@
 import { AiOutlinePlus } from "react-icons/ai";
 import TotalCard from "./TotalCard/page.jsx";
+import CardSection from "./CardSection/page.jsx";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
      </main>
 
     <TotalCard></TotalCard>
-
+    <CardSection></CardSection>
     
     </div>
   );
