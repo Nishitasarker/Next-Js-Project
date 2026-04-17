@@ -30,6 +30,20 @@ const handleSearch = () => {
   if (items.length === 0 || !pathname.includes("/timeline")) {
     return null;}
 
+const formatDate = (dateString) => {
+  if (!dateString) return "";
+  const date = new Date(dateString);
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+};
+
+
+
   return (
     <div className="p-10">
       {items.length > 0 ? (
@@ -82,7 +96,7 @@ const handleSearch = () => {
                 <p className="text-sm text-gray-600">
                   <span className="capitalize text-green-500 text-xl font-bold">{item.type}</span>{" "} with {friendInfo ? friendInfo.name : item.name}
                 </p>
-                <span className="text-sm text-gray-600">{friendInfo.next_due_date}</span>
+                <span className="text-sm text-gray-600">{formatDate(item.timestamp || item.date)}</span>
                 </div>
               </div>
                           

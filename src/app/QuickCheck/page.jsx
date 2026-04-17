@@ -24,7 +24,7 @@ export default function QuickCheck({ friendName,friendId }) {
       friendId: friendId,
       name: friendName, 
       type: type, 
-      time: new Date().toLocaleString()
+     timestamp: new Date().toISOString()
     };
 
     

@@ -1,40 +1,66 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🐣 KeenKeeper — Keep Your Friendships Alive
 
-## Getting Started
+**KeenKeeper** is a sophisticated relationship management tool designed to help users maintain consistent connections with friends. By tracking communication gaps and visualizing interaction history, it ensures no friendship is left behind.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack & Tools
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌐 Frontend & Frameworks
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white" alt="DaisyUI" />
+</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🏗️ Core Technologies
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📊 Libraries & Deployment
+<p align="left">
+  <img src="https://img.shields.io/badge/Recharts-22B5AD?style=for-the-badge&logo=react&logoColor=white" alt="Recharts" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **📱 Responsive Dashboard:** Fully optimized for Mobile, Tablet, and Desktop following Figma designs.
+* **👫 Friend Status Tracking:** Real-time indicators for `on-track`, `almost due`, and `overdue` statuses.
+* **⚡ Interaction Logger:** One-click logging for Calls, Texts, and Video Chats with instant Toast notifications.
+* **📜 Dynamic Timeline:** A centralized interaction history page that keeps track of all communication.
+* **🔍 Timeline Filtering:** (Challenge Feature) Easily filter interaction history by Call, Text, or Video types.
+* **📊 Friendship Analytics:** (Challenge Feature) Data visualization using Recharts to see communication patterns via Pie Charts.
+* **🕒 Smart Loading:** Integrated loading animations while fetching data for a smoother UX.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📂 Requirements Checklist
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] **Navbar & Banner:** Professional layout with active link highlighting and summary cards.
+- [x] **Friend Cards:** 4-column grid on large screens displaying real-time contact data.
+- [x] **Friend Details Page:** Comprehensive view with Profile Info, Bio, and Relationship Goals.
+- [x] **Persistence:** Interaction logs are saved and persist even after page reloads.
+- [x] **Error Handling:** Custom **404 Page** implemented for invalid routes.
+- [x] **Clean Code:** Meaningful Git commits and zero console errors.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Next-Js-Project
->>>>>>> dd6dec17ceb2ae519a276681254a8acf08f5df11
+---
+
+## 🔗 Project Links
+
+* **Live Deployment:** [View Site](YOUR_LIVE_LINK_HERE)
+* **Source Code:** [GitHub Repo](YOUR_GITHUB_LINK_HERE)
+
+---
+
+## 👩‍💻 Author
+**Nishita Sarker Jui** *Student at Begum Rokeya University, Rangpur (BRUR)* *Frontend Developer & Aspiring Software Engineer*
