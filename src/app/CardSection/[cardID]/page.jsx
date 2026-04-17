@@ -1,13 +1,14 @@
+
 import React from 'react';
 import friendsData from '../../../../public/data.json'; 
 import Image from 'next/image';
 import { PiBellZFill } from "react-icons/pi";
 import { HiArchive } from "react-icons/hi";
 import { FiTrash2 } from "react-icons/fi";
-import Call from "../../../../assets/call.png"
-import Text from "../../../../assets/text.png"
-import Video from "../../../../assets/video.png"
-
+// import Call from "../../../../assets/call.png"
+// import Text from "../../../../assets/text.png"
+// import Video from "../../../../assets/video.png"
+import  QuickCheck from "../../QuickCheck/page"
 
 
 
@@ -124,22 +125,7 @@ export default async function FriendDetailsPage ({ params }) {
         <h2 className="text-green-900 text-xl font-bold py-2">Quick Check-In</h2>
       
       {/* card */}
-      <div className='flex gap-2 pb-2'>
-         <div className="  card card-dash bg-gray-100 border-gray-300 border-solid w-35 flex flex-col justify-center items-center py-2">
-    <Image src={Call} alt='Call' className='w-6 h-6'></Image>
-   <p className="text-gray-500 ">Call</p>   
-     </div>
-
-     <div className="  card card-dash bg-gray-100 border-gray-300 border-solid w-35 flex flex-col justify-center items-center mx-7 py-2">
-    <Image src={Text} alt='Text' className='w-6 h-6'></Image>
-    <p className="text-gray-500 ">Text</p>   
-     </div>
-
-     <div className="  card card-dash bg-gray-100 border-gray-300 border-solid w-35 flex flex-col justify-center items-center py-2">
-    <Image src={Video} alt='Video' className='w-6 h-6'></Image>
-        <p className="text-gray-500 ">Video</p>   
-     </div>
-      </div>
+      <QuickCheck friendName={friend.name} friendId={friend.id}/>
 
      </div>
 
