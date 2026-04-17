@@ -23,18 +23,18 @@ const StatsPage = () => {
         setData(chartData);
     }, []);
 
-    const totalInteractions = data.reduce((sum, entry) => sum + entry.value, 0);
+    const totalTimeline = data.reduce((sum, entry) => sum + entry.value, 0);
 
     return (
         <div className='p-6 sm:p-10  mx-0 sm:mx-5 md:mx-35'>
             <h1 className='text-4xl font-bold mb-10'>Friendship Analytics</h1>
  
-            <div className='bg-gray-50  rounded-2xl shadow-sm  '>
+            <div className='bg-gray-50  rounded-2xl shadow-sm  pb-6'>
                 <p className='text-green-600 font-bold text-xl mb-2 pl-4 pt-4'>By Interaction Type</p>
                 
-               <div className='flex justify-center items-center'>
-                 {totalInteractions > 0 ? (
-                    <div style={{ width: '300px', height: '300px' }}>
+               <div className='flex justify-center items-center w-full'>
+                 {totalTimeline > 0 ? (
+                    <div style={{ width: '100%', height: '300px' }}>
                         <ResponsiveContainer width="100%" height="100%">
                             <PieChart>
                                 <Pie
@@ -59,9 +59,7 @@ const StatsPage = () => {
                 )}
                </div>
                 
-                <div className=" text-center">
-                    <p className="text-gray-600 pb-6">Total Interactions: <strong>{totalInteractions}</strong></p>
-                </div>
+        
             </div>
         </div>
     );
