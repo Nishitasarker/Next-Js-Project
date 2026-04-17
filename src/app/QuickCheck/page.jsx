@@ -34,10 +34,10 @@ export default function QuickCheck({ friendName,friendId }) {
     toast.success(`${type} with ${friendName} added!`);
   };
   return (
-    <div className="flex gap-2 pb-2">
+    <div className="flex flex-col md:flex-row gap-2 pb-2 px-0 md:px-10 ">
       <div
         onClick={() => handleStore("call")}
-        className="card card-dash bg-gray-100 border w-35 flex flex-col justify-center items-center py-2 cursor-pointer"
+        className="card card-dash bg-gray-100 border w-35 flex flex-row  gap-12 md:gap-0 md:flex-col  justify-center items-center py-2 cursor-pointer"
       >
         <Image src={Call} alt="Call" className="w-6 h-6" />
         <p>Call</p>
@@ -45,7 +45,7 @@ export default function QuickCheck({ friendName,friendId }) {
 
       <div
         onClick={() => handleStore("text")}
-        className="card card-dash bg-gray-100 border w-35 flex flex-col justify-center items-center py-2 cursor-pointer"
+        className="card card-dash bg-gray-100 border w-35 flex flex-row  gap-12 md:gap-0 md:flex-col justify-center items-center py-2 cursor-pointer"
       >
         <Image src={Text} alt="Text" className="w-6 h-6" />
         <p>Text</p>
@@ -53,7 +53,7 @@ export default function QuickCheck({ friendName,friendId }) {
 
       <div
         onClick={() => handleStore("video")}
-        className="card card-dash bg-gray-100 border w-35 flex flex-col justify-center items-center py-2 cursor-pointer"
+        className="card card-dash bg-gray-100 border w-35 flex flex-row  gap-12 md:gap-0 md:flex-col justify-center items-center py-2 cursor-pointer"
       >
         <Image src={Video} alt="Video" className="w-6 h-6" />
         <p>Video</p>

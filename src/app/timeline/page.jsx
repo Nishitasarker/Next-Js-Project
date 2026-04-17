@@ -27,8 +27,17 @@ const handleSearch = () => {
     setFilteredType(searchTerm.toLowerCase());
   };
 
-  if (items.length === 0 || !pathname.includes("/timeline")) {
-    return null;}
+  
+if (items.length === 0) {
+    return (
+        <div className="text-center py-10">
+            <p className="text-gray-500 font-medium text-2xl">
+                No items have been added to the timeline yet.
+            </p>
+        </div>
+    );
+}
+
 
 const formatDate = (dateString) => {
   if (!dateString) return "";

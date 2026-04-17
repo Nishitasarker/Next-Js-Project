@@ -57,8 +57,8 @@
 
 ## 🔗 Project Links
 
-* **Live Deployment:** [View Site](YOUR_LIVE_LINK_HERE)
-* **Source Code:** [GitHub Repo](YOUR_GITHUB_LINK_HERE)
+* **Live Deployment:** [View Site](effervescent-jalebi-e2c324.netlify.app)
+* **Source Code:** [GitHub Repo](https://github.com/Nishitasarker/Next-Js-Project?tab=readme-ov-file)
 
 ---
 

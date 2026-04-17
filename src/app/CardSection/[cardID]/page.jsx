@@ -21,7 +21,7 @@ export default async function FriendDetailsPage ({ params }) {
     const friend=await getFriend(cardID)
 
     return (
-        <div className="grid grid-cols-5 grid-rows-7 gap-4 py-10 px-30">
+        <div className="grid grid-cols-1 md:grid-cols-5 grid-rows-7 gap-4 py-10 px-4 md:px-30 ">
      
      
         <div className='flex gap-4 py-2'>
@@ -30,7 +30,7 @@ export default async function FriendDetailsPage ({ params }) {
     <div className="col-span-2 row-span-4">
    
    {/* details-card */}
-        <div className="card w-80 bg-white border border-gray-100 shadow-md p-3 flex flex-col items-center">
+        <div className="card w-full md:w-80 bg-white border border-gray-100 shadow-md p-3 flex flex-col items-center py-10 md:py-2">
     <Image src={friend.picture} alt={friend.name} width={60} height={60} className=" mt-2 rounded-full object-cover" />
                  <h2 className="font-bold text-xl">{friend.name}</h2>
     
@@ -41,7 +41,7 @@ export default async function FriendDetailsPage ({ params }) {
                     {friend.status}</button>
 
     
-                 <div className='flex flex-wrap justify-center gap-2 mt-0.5'>
+                 <div className='flex flex-wrap justify-center gap-5 mt-0.5'>
                {friend.tags.map((tag, index) => (
                  <button key={index} 
                   className="flex items-center text-green-700 bg-green-100 px-3 py-1 text-xs mb-1 font-bold rounded-full">
@@ -83,19 +83,19 @@ export default async function FriendDetailsPage ({ params }) {
       <div className=''>
 
         {/* card */}
-       <div className='flex gap-6 col-span-1 row-span-2 mt-0.5'>
+       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 col-span-1 row-span-2 mt-0.5'>
         
-            <div className="  card card-dash bg-base-100 w-40 flex flex-col justify-center items-center py-6">
+            <div className="  card card-dash bg-base-100 w-40 flex flex-row md:flex-col justify-center items-center gap-1 px-1 md:px-0 py-2 md:py-6">
     <h2 className="text-green-900 text-xl font-bold">{friend.days_since_contact}</h2>
     <p className="text-gray-500 ">Days Since Contact</p>   
      </div>
 
-     <div className=" card card-dash bg-base-100 w-40 flex flex-col justify-center items-center py-7">
+     <div className=" card card-dash bg-base-100 w-40 flex flex-row md:flex-col justify-center items-center gap-1 px-1 md:px-0 py-2 md:py-6">
     <h2 className="text-green-900 text-xl font-bold">{friend.goal}</h2>
     <p className="text-gray-500 ">Goal (Days)</p>   
      </div>
 
-     <div className="card card-dash bg-base-100 w-40 flex flex-col justify-center items-center py-7">
+     <div className="card card-dash bg-base-100 w-40 flex flex-row md:flex-col justify-center items-center gap-1 px-1 md:px-0 py-2 md:py-6">
     <h2 className="text-green-900 text-xl font-bold">{friend.next_due_date}</h2>
     <p className="text-gray-500 ">Next Due</p>   
      </div>
@@ -105,10 +105,10 @@ export default async function FriendDetailsPage ({ params }) {
 
          {/* relation */}
 
-    <div className=" col-span-3 row-span-2 card card-dash bg-base-100  flex flex-row items-center justify-between px-4 py-7 my-4">
+    <div className=" col-span-3 row-span-2 card card-dash bg-base-100  flex flex-col md:flex-row items-center justify-start md:justify-between px-4 py-1 md:py-7 my-4 ">
     
     <div>
-    <h2 className="text-green-900 text-xl font-bold py-2">Relationship Goal</h2>
+    <h2 className="text-green-900 text-xl font-bold py-0 md:py-2">Relationship Goal</h2>
     <p className="text-gray-500 ">Connect every <span className='text-black font-bold'>30 days</span></p>  
     </div>
 
