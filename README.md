@@ -55,9 +55,10 @@
 
 ---
 
-## 🔗 Project Links
+## 🔗 Live Link
+[![View on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://effervescent-jalebi-e2c324.netlify.app)
 
-* **Live Deployment:** [View Site](effervescent-jalebi-e2c324.netlify.app)
+## 🔗 Project Links
 * **Source Code:** [GitHub Repo](https://github.com/Nishitasarker/Next-Js-Project?tab=readme-ov-file)
 
 ---

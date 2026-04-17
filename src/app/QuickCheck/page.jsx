@@ -14,7 +14,7 @@ export default function QuickCheck({ friendName,friendId }) {
   );
 
   if (isAlreadyDone) {
-     toast.warn(`${type} with ${friendName} already added!`);
+     toast.warn(`${type} with ${friendName} already added!!!`);
     return;
   }
 
